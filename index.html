@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="language" content="es">
+    <link rel="stylesheet" href="styles.css">
+    <title>Act1: Miasto-Blog</title>
+</head>
+
+<section class="cabecera"> <!-- Cabecera del blog -->
+    <h1>Blog-Miasto</h1>
+</section>
+
+<section class="preentrada">
+    
+    <img src="images/varsoviaheader.jpg" alt="HTML">
+    <a href="entrada1.html">
+        <h1>Varsovia</h1>
+    </a>
+    <button class="boton_resumen"> Ver resumen</button>
+    <div class="text_resumen oculto">
+        Esta entrada habla sobre Varsovia, la capital de Polonia.
+    </div>
+    <p class="contador"> Visitas: <span id="visitas-varsovia"></span></p>
+</section>
+
+<section class="preentrada">
+    <img src="images/cracoviaheader.jpg" alt="HTML">
+    <a href="entrada2.html">
+         <h1>Cracovia</h1>
+    </a>
+    <button class="boton_resumen"> Ver resumen</button>
+    <div class="text_resumen oculto">
+        Esta entrada habla sobre Cracovia, gran centro cultural polaco.
+    </div>
+    <p class="contador"> Visitas: <span id="visitas-cracovia"></span></p>
+</section>
+
+<section class="preentrada">
+    <img src="images/lodzheader.jpg" alt="HTML">
+    <a href="entrada3.html">
+         <h1>Lodz</h1>
+    </a>
+    <button class="boton_resumen"> Ver resumen</button>
+    <div class="text_resumen oculto">
+        Esta entrada habla sobre Lodz, antiguo motor de la industria textil polaca.
+    </div>
+    <p class="contador"> Visitas: <span id="visitas-lodz"></span></p>
+</section>
+
+<script src="script.js"></script>
+<script> mostrar_visitas();</script>
+<script> activar_resumenes();</script>
+
+</html>
